@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "test:all": "jest",
+    "test:challenge:1": "jest -t 'Challenge 1'",
+    "test:challenge:2": "jest -t 'Challenge 2'",
+    "test:challenge:3": "jest -t 'Challenge 3'",
+    "test:challenge:4": "jest -t 'Challenge 4'",
+    "test:challenge:5": "jest -t 'Challenge 5'",
+    "test:challenge:6": "jest -t 'Challenge 6'"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "normalizr": "^3.6.0"
+  }
+}
